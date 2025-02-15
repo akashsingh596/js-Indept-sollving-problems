@@ -28,8 +28,6 @@ function findCommonKeyValue(obj1, obj2) {
       obj1[key] === obj2[key]
     ) {
       commonValues[key] = obj1[key];
-      commonValues[key] = obj2[key];
-
     }
   }
   console.log(commonValues);
